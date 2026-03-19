@@ -23,7 +23,17 @@ public class Main {
         System.out.println(text.toUpperCase());
         System.out.println(text.toLowerCase());
 
+        String text3=" Trupti Meher ";
+        System.out.println(text3.trim());
 
+        String a="I love";
+        String b ="Java";
+        System.out.println(a.concat(" ").concat(b));
+
+        String[] fruits={"banana","apple","chikoo"};
+        System.out.println(fruits[0]);
+        System.out.println(fruits[1]);
+        System.out.println(fruits[2]);
 
 
     }
